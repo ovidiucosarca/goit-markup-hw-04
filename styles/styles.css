@@ -202,10 +202,10 @@ body {
 .container-hero{
     background-image:
     linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-    url("images/hero-image.jpg");
+    url(/images/hero_image.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0px auto;
 }
 
@@ -474,6 +474,7 @@ body {
 .regular-customers-outline:hover{
     fill:var(--sec-color);
     border-color: var(--sec-color);
+    cursor: pointer;
 }
 
 .logo-footer{
